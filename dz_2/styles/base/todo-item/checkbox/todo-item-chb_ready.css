@@ -1,0 +1,4 @@
+.todo-item__ready {
+   color: #cccccc;
+   text-decoration: line-through;
+}
