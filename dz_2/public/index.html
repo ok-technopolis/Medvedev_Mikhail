@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./dist/styles/final.css" />
+    <title>todos</title>
+</head>
+<body class="hover">
+
+<div class="main">
+    <div class="todos-header">
+        <h1 class="todos-title">todos</h1>
+    </div>
+    
+    <div class="todos-main __wrapper">
+    
+        <div class="todos-add">
+            <div class="action todo-add_select-all-action">
+                <div class="to_see"></div>
+                <button class="action_aim" aria-label="mark all as completed"></button>
+            </div>
+
+            <div class="todo-add_input-lbl">
+                <input class="todo-add_input" placeholder="What needs to be done?" aria-label="add todo" />
+            </div>
+        </div>
+
+        <div class="todos-list">
+            <div class="todo-item __ready">
+
+                <div class="input-checkbox todo-item_ready-to-check">
+                    <input type="checkbox"
+                           checked="checked"
+                           class="input-checkbox_aim" 
+                           aria-label="mark as unfulfilled" />
+                    <div class="input-checkbox_see">
+                        <div class="input-checkbox_see_icon"></div>
+                    </div>
+                </div>
+
+                <div class="action todo-item_remove-action">
+                    <div class="to_see"></div>
+                    <button class="action_aim" aria-label="remove todo"></button>
+                </div>
+
+                <div class="todo-item_text-lbl">
+                    <div class="todo-item_text" contenteditable="true">HTML</div>
+                </div>
+            </div>
+
+            <div class="todo-item">
+                <div class="input-checkbox todo-item_ready-to-check">
+                    <input type="checkbox"
+                           class="input-checkbox_aim" 
+                           aria-label="mark as not completed"/>
+
+                    <div class="input-checkbox_see">
+                        <div class="input-checkbox_see_icon"></div>
+                    </div>
+                </div>
+
+                <div class="action todo-item_remove-action">
+                    <div class="to_see"></div>
+                    <button class="action_aim" aria-label="remove todo"></button>
+                </div>
+
+                <div class="todo-item_text-lbl">
+                    <div class="todo-item_text" contenteditable="true">CSS</div>
+                </div>
+            </div>
+
+            <div class="todo-item">
+                <div class="input-checkbox todo-item_ready-to-check">
+                    <input type="checkbox"
+                           class="input-checkbox_aim" 
+                           aria-label="mark as unfulfilled" />
+
+                    <div class="input-checkbox_see">
+                        <div class="input-checkbox_see_icon"></div>
+                    </div>
+                </div>
+
+                <div class="action todo-item_remove-action">
+                    <div class="to_see"></div>
+                    <button class="action_aim" aria-label="remove todo"></button>
+                </div>
+
+                <div class="todo-item_text-lbl">
+                    <div class="todo-item_text" contenteditable="true">JS</div>
+                </div>
+            </div>
+
+            <div class="todo-item">
+                <div class="input-checkbox todo-item_ready-to-check">
+                    <input type="checkbox" 
+                           class="input-checkbox_aim" 
+                           aria-label="mark as unfulfilled" />
+
+                    <div class="input-checkbox_see">
+                        <div class="input-checkbox_see_icon"></div>
+                    </div>
+                </div>
+
+                <div class="action todo-item_remove-action">
+                    <div class="to_see"></div>
+                    <button class="action_aim" aria-label="remove todo"></button>
+                </div>
+
+                <div class="todo-item_text-lbl">
+                    <div class="todo-item_text" contenteditable="true">JS tools</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="todos-actions-bar">
+
+            <div class="todos-actions-bar_counter" aria-label="Number of not made todo">4 items</div>
+
+            <button class="todos-actions-bar_clear-completed">remove comleted</button>
+
+            <div class="todos-filters">
+                <button class="filter __active" data-filter="all" aria-label="Filer: show all">all</button>
+
+                <button class="filter" data-filter="ready"        aria-label="Filter: show nfulfilled">unfulfilled</button>
+
+                <button class="filter" data-filter="unready"      aria-label="Filter: show executed">completed</button>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
